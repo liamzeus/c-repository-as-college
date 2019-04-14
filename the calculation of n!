@@ -1,0 +1,11 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+float fac(float n){
+float f;
+if(n==0)
+f=1;
+else 
+f=fac(n*(n-1));
+return f;
+}
